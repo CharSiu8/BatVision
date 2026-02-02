@@ -7,19 +7,19 @@ from datetime import datetime
 
 # config: list of actors + search queries
 actors = {
-    "afleck": [
-        "Ben Afleck Batman costume",
-        "Ben Afleck Batman mask"
+    "affleck": [
+        "Ben Affleck Batman costume",
+        "Batman v Superman Batman mask"
     ],
 
     "bale": [
         "Christian Bale Batman costume",
-        "Christian Bale Batman mask"
+        "Dark Knight Batman mask"
     ],
 
     "pattinson": [
         "Robert Pattinson Batman Costume",
-        "Robert Pattinson Batman mask"
+        "The Batman 2022 mask"
     ],
 
     "niteowl": [
