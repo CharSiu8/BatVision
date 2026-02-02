@@ -7,10 +7,30 @@ from datetime import datetime
 
 # config: list of actors + search queries
 actors = {
-    "afleck": "Ben Afleck Batman costume",
-    "bale": "Christian Bale Batman costume",
-    "pattinson": "Robert Pattinson Batman Costume",
-    "niteowl": "Niteowl Watchmen costume"
+    "afleck": [
+        "Ben Afleck Batman costume",
+        "Ben Afleck Batman mask"
+    ],
+
+    "bale": [
+        "Christian Bale Batman costume",
+        "Christian Bale Batman mask"
+    ],
+
+    "pattinson": [
+        "Robert Pattinson Batman Costume",
+        "Robert Pattinson Batman mask"
+    ],
+
+    "niteowl": [
+        "Niteowl Watchmen costume",
+        "Niteowl Watchmen mask"
+    ],
+
+    "darkwing": [
+        "Darkwing Invincible costume",
+        "Darkwing Invincible mask"
+    ]
 }
 
 # download_image(url, save_path)
@@ -73,7 +93,12 @@ def collect_for_actor(actor_name, search_query, num_images):
         os.makedirs(os.path.join("data", "raw", actor_name), exist_ok=True)
     except FileExistsError:
         pass
-    for index, image_link in enumerate(image_links):
+
+    #index to prevent files being overwritten 
+    existing_files = os.listdir(os.path.join("data", "raw", actor_name))
+    start_index = len(existing_files)
+
+    for index, image_link in enumerate(image_links, start=start_index):
         save_path = os.path.join("data", "raw", actor_name, f"{actor_name}_{index:03d}.jpg")
 
         success = download_image(image_link, save_path)
@@ -100,10 +125,12 @@ def collect_for_actor(actor_name, search_query, num_images):
     # call collect_for_actor for each
     # print summary when done
 if __name__ == "__main__":
-    num_images = 50  # per actor
+    num_images = 25  # per query
     
-    for actor_name, search_query in actors.items():
-        print(f"Collecting {num_images} images for {actor_name}...")
-        collect_for_actor(actor_name, search_query, num_images)
+    for actor_name, queries in actors.items():
+        for search_query in queries:
+            print(f"Collecting {num_images} images for {actor_name} ({search_query})...")
+            collect_for_actor(actor_name, search_query, num_images)
+            time.sleep(5)  # pause between queries to avoid rate limit
     
     print("Done!")
