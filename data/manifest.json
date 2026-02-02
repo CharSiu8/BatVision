@@ -1,0 +1,40 @@
+{
+  "images": [
+    {
+      "filename": "keaton_001.jpg",
+      "actor": "keaton",
+      "source_url": "https://...",
+      "date_collected": "2025-02-02",
+      "dimensions": [224, 224],
+      "status": "raw"
+    },
+    { 
+      "filename": "bale_001.jpg",
+      "actor": "bale",
+      "source_url": "https://...",
+      "date_collected": "2025-02-02",
+      "dimensions": [224, 224],
+      "status": "raw"
+    },
+    {
+      "filename": "pattinson_001.jpg",
+      "actor": "pattinson",
+      "source_url": "https://...",
+      "date_collected": "2025-02-02",
+      "dimensions": [224, 224],
+      "status": "raw"
+    },
+    {
+      "filename": "niteowl_001.jpg",
+      "actor": "niteowl",
+      "source_url": "https://...",
+      "date_collected": "2025-02-02",
+      "dimensions": [224, 224],
+      "status": "raw"
+    }
+  ],
+  "metadata": {
+    "total_images": 0,
+    "last_updated": "2025-02-02"
+  }
+}
