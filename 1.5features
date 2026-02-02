@@ -1,0 +1,12 @@
+Features to add after MVP:
+
+Confidence score — Show % certainty of prediction
+Side-by-side comparison — Display reference image next to uploaded image
+Multi-image batch upload — Classify multiple images at once
+Actor stats dashboard — Show classification history/analytics
+Voice narration — Eleven Labs reads out the result
+Explain prediction — Highlight facial features model used (Grad-CAM)
+Add more characters — Batgirl, Robin, other lookalikes
+Reverse search — Agent finds similar images online
+API endpoint — Let others call your classifier programmatically
+Fine-tuning interface — User corrects wrong predictions, model improves
