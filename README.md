@@ -46,4 +46,5 @@ AI-powered image classifier that identifies Batman actors (Keaton, Bale, Pattins
 
 ## License
 
-AGPL-3.0 — Free for personal/educational use. For commercial licensing, contact: stpolino@gmail.com
+All Rights Reserved 2026 - Employers and Recruiters may clone and access to test
+
