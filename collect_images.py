@@ -1,5 +1,5 @@
-from duckduckgo_search import DDGS
 import os
+from ddgs import DDGS
 import json
 import requests
 import time
@@ -12,7 +12,7 @@ actors = {
     "pattinson": "Robert Pattinson Batman Costume",
     "niteowl": "Niteowl Watchmen costume"
 }
-os.makedirs(os.path.join("data", "raw", actor_name), exist_ok=True)
+
 # download_image(url, save_path)
 def download_image(url, save_path):
     # try block starts here
@@ -57,19 +57,22 @@ def update_manifest(image_data):
 def collect_for_actor(actor_name, search_query, num_images):
     """ Searches DuckDuckGO for images and collects URLs for specific actors """
     image_links = []
+
     # search DDG for query
     with DDGS() as ddgs:
         results = ddgs.images(
-            keywords=search_query,
-            max_results=num_images,
-            safesearch="moderate"
-        )
+    query=search_query,
+    max_results=num_images
+)
     # loop through results
     for result in results:
         image_links.append(result.get("image"))
 
     # loop through image_links with index
-    os.makedirs(os.path.join("data", "raw", actor_name), exist_ok=True)
+    try:
+        os.makedirs(os.path.join("data", "raw", actor_name), exist_ok=True)
+    except FileExistsError:
+        pass
     for index, image_link in enumerate(image_links):
         save_path = os.path.join("data", "raw", actor_name, f"{actor_name}_{index:03d}.jpg")
 

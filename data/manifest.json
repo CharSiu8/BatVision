@@ -5,15 +5,21 @@
       "actor": "afleck",
       "source_url": "https://...",
       "date_collected": "2025-02-02",
-      "dimensions": [224, 224],
+      "dimensions": [
+        224,
+        224
+      ],
       "status": "raw"
     },
-    { 
+    {
       "filename": "bale_001.jpg",
       "actor": "bale",
       "source_url": "https://...",
       "date_collected": "2025-02-02",
-      "dimensions": [224, 224],
+      "dimensions": [
+        224,
+        224
+      ],
       "status": "raw"
     },
     {
@@ -21,7 +27,10 @@
       "actor": "pattinson",
       "source_url": "https://...",
       "date_collected": "2025-02-02",
-      "dimensions": [224, 224],
+      "dimensions": [
+        224,
+        224
+      ],
       "status": "raw"
     },
     {
@@ -29,12 +38,224 @@
       "actor": "niteowl",
       "source_url": "https://...",
       "date_collected": "2025-02-02",
-      "dimensions": [224, 224],
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "afleck_000.jpg",
+      "actor": "afleck",
+      "source_url": "https://wallpaperaccess.com/full/767640.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "afleck_001.jpg",
+      "actor": "afleck",
+      "source_url": "https://wallpapercave.com/wp/wp3085231.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "afleck_002.jpg",
+      "actor": "afleck",
+      "source_url": "https://cdn.shopify.com/s/files/1/0073/5271/3268/products/ben-affleck-batman-suit_1_1024x.jpg?v=1680834368",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "afleck_003.jpg",
+      "actor": "afleck",
+      "source_url": "https://wallpaperaccess.com/full/767632.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "afleck_004.jpg",
+      "actor": "afleck",
+      "source_url": "https://static1.srcdn.com/wordpress/wp-content/uploads/2023/07/ben-affleck-batman-blue-black-suits.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "bale_000.jpg",
+      "actor": "bale",
+      "source_url": "https://2.bp.blogspot.com/-jc7Yn9nTJl0/UA3nqSZVZ7I/AAAAAAAAuSg/oWjzkwGukaU/s1600/DarkKnightRises+Batman+suit.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "bale_001.jpg",
+      "actor": "bale",
+      "source_url": "https://c8.alamy.com/comp/2R5MH4X/a-batman-costume-as-warn-by-christian-bale-on-display-at-the-harry-potter-studio-tour-in-watford-uk-2R5MH4X.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "bale_002.jpg",
+      "actor": "bale",
+      "source_url": "https://1.bp.blogspot.com/-VDv1KUVqrzE/UA3tYfOqvUI/AAAAAAAAuTE/A_D9PI8de5k/s1600/DarkKnightRises+Batman+costume.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "bale_003.jpg",
+      "actor": "bale",
+      "source_url": "https://c8.alamy.com/comp/BPW5G6/christian-bale-the-dark-knight-batman-2008-BPW5G6.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "bale_004.jpg",
+      "actor": "bale",
+      "source_url": "https://c8.alamy.com/comp/D69X0E/christian-bale-on-the-batman-movie-set-of-the-dark-knight-rises-new-D69X0E.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "pattinson_000.jpg",
+      "actor": "pattinson",
+      "source_url": "https://c8.alamy.com/comp/2PGRE4C/los-angeles-california-usa-23rd-march-2023-robert-pattinsons-the-batman-costume-at-art-of-the-costume-design-in-film-exhibition-at-the-fashion-institute-of-design-merchandising-fidm-in-downtown-la-on-march-23-2023-in-los-angeles-california-usa-photo-by-barry-kingalamy-stock-photo-2PGRE4C.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "pattinson_001.jpg",
+      "actor": "pattinson",
+      "source_url": "https://c8.alamy.com/comp/2PGRE4M/los-angeles-california-usa-23rd-march-2023-robert-pattinsons-the-batman-costume-at-art-of-the-costume-design-in-film-exhibition-at-the-fashion-institute-of-design-merchandising-fidm-in-downtown-la-on-march-23-2023-in-los-angeles-california-usa-photo-by-barry-kingalamy-stock-photo-2PGRE4M.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "pattinson_002.jpg",
+      "actor": "pattinson",
+      "source_url": "https://cdn.vox-cdn.com/thumbor/3OOrMN8LXMqejqdMMfiCqgQzMQc=/0x0:1990x2548/1200x0/filters:focal(0x0:1990x2548):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19736963/GettyImages_1202253963.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "pattinson_003.jpg",
+      "actor": "pattinson",
+      "source_url": "https://www.cosdaddy.com/image/cache/catalog/ML20200337/robert-pattinson-batman-suit-900x900.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "pattinson_004.jpg",
+      "actor": "pattinson",
+      "source_url": "https://c8.alamy.com/comp/2PGRE66/los-angeles-california-usa-23rd-march-2023-robert-pattinsons-the-batman-costumes-at-art-of-the-costume-design-in-film-exhibition-at-the-fashion-institute-of-design-merchandising-fidm-in-downtown-la-on-march-23-2023-in-los-angeles-california-usa-photo-by-barry-kingalamy-stock-photo-2PGRE66.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "niteowl_000.jpg",
+      "actor": "niteowl",
+      "source_url": "https://live.staticflickr.com/2608/4021480116_a6aba0e025_b.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "niteowl_001.jpg",
+      "actor": "niteowl",
+      "source_url": "https://www.yourprops.com/movieprops/default/yp565a6c61192445.14083484/Watchmen-Night-owl-complete-Hero-Costume-1.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "niteowl_002.jpg",
+      "actor": "niteowl",
+      "source_url": "https://i.pinimg.com/736x/f9/ec/9a/f9ec9af07c5af9ef016019133a2a8a95.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
+      "status": "raw"
+    },
+    {
+      "filename": "niteowl_003.jpg",
+      "actor": "niteowl",
+      "source_url": "https://4.bp.blogspot.com/_GIchwvJ-aNk/SmpaVwjA3AI/AAAAAAAAJ68/pf02hbY5Kmo/s800/Watchmen+costumes+Nite+owl+II.jpg",
+      "date_collected": "2026-02-02",
+      "dimensions": [
+        224,
+        224
+      ],
       "status": "raw"
     }
   ],
   "metadata": {
-    "total_images": 0,
+    "total_images": 19,
     "last_updated": "2025-02-02"
   }
 }
