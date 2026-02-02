@@ -1,6 +1,2 @@
-duckduckgo_search
-DDGS
-os
-json
+ddgs
 requests
-datetime

@@ -1,4 +1,4 @@
- from duckduckgo_search import DDGS
+from duckduckgo_search import DDGS
 import os
 import json
 import requests
@@ -12,7 +12,7 @@ actors = {
     "pattinson": "Robert Pattinson Batman Costume",
     "niteowl": "Niteowl Watchmen costume"
 }
-
+os.makedirs(os.path.join("data", "raw", actor_name), exist_ok=True)
 # download_image(url, save_path)
 def download_image(url, save_path):
     # try block starts here
@@ -69,8 +69,9 @@ def collect_for_actor(actor_name, search_query, num_images):
         image_links.append(result.get("image"))
 
     # loop through image_links with index
+    os.makedirs(os.path.join("data", "raw", actor_name), exist_ok=True)
     for index, image_link in enumerate(image_links):
-        save_path = f"data/raw/{actor_name}/{actor_name}_{index:03d}.jpg"
+        save_path = os.path.join("data", "raw", actor_name, f"{actor_name}_{index:03d}.jpg")
 
         success = download_image(image_link, save_path)
 
@@ -84,7 +85,7 @@ def collect_for_actor(actor_name, search_query, num_images):
                 "status": "raw"
             }
             update_manifest(image_data)
-        time.sleep(1) # slowing down the process to avoid getting blocked by DuckDuckGo
+        time.sleep(2) # slowing down the process to avoid getting blocked by DuckDuckGo
 
     return {
         "actor": actor_name,
