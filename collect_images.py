@@ -100,7 +100,7 @@ def collect_for_actor(actor_name, search_query, num_images):
     # call collect_for_actor for each
     # print summary when done
 if __name__ == "__main__":
-    num_images = 5  # per actor
+    num_images = 50  # per actor
     
     for actor_name, search_query in actors.items():
         print(f"Collecting {num_images} images for {actor_name}...")
