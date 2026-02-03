@@ -1,50 +1,93 @@
-# BatVision - Agentic AI and Image Detection on Batman
 # BatVision
 
-AI-powered image classifier that identifies Batman actors (Keaton, Bale, Pattinson) and distinguishes from similar characters (Nite Owl). Built with agentic AI capabilities.
+AI-powered image classifier that identifies Batman actors (Affleck, Bale, Pattinson) and distinguishes from similar masked characters (Nite Owl, Darkwing). Built with Azure cloud services.
+
+## LIVE DEMO
+
+https://huggingface.co/spaces/CharSiu8/BatVision
 
 ## Features
 
 - **Image Classification:** Upload an image → identifies which Batman actor
-- **Agentic Search:** Agent automatically searches for actor filmography and related info based on prediction
-- **Similarity Detection:** Flags lookalike characters (Nite Owl) as "Not Batman"
+- **Masked Face Recognition:** Model trained on challenging mask-heavy images, forcing recognition of subtle facial features (jaw, chin, mouth)
+- **Similarity Detection:** Distinguishes Batman from lookalike characters (Nite Owl from Watchmen, Darkwing from Invincible)
+
+## Azure Integrations
+
+- **Azure Blob Storage:** Cloud hosting for training images
+- **Azure Custom Vision:** Model training and prediction API
+- **Azure Resource Management:** Organized under `batvision-rg` resource group
 
 ## Tech Stack
 
 - Python
-- Bing Image Search API (data collection)
-- TensorFlow/PyTorch (model)
-- FastAPI (backend)
+- DuckDuckGo Search (data collection)
+- Azure Custom Vision (model training + prediction)
+- Azure Blob Storage (image hosting)
 - Gradio (UI)
-- OpenAI API (agentic features)
+- HuggingFace Spaces (deployment)
 
 ## Data Structure
 ```
 /data
   /raw
-    /keaton
+    /affleck
     /bale
     /pattinson
-    /nite_owl
+    /niteowl
+    /darkwing
   /processed
   manifest.json
 ```
 
-## Quick Start
+## Project Scripts
 
+- `collect_images.py` — Scrapes images via DuckDuckGo, updates manifest
+- `preprocess_images.py` — Resizes to 224x224, converts to RGB/JPG
+- `upload_to_azure.py` — Uploads processed images to Azure Blob Storage
+- `app.py` — Gradio interface calling Azure Custom Vision API
+
+## Quick Start
+LIVE DEMO: https://huggingface.co/spaces/CharSiu8/BatVision
+
+OR
 1. Clone repo
 2. Install dependencies: `pip install -r requirements.txt`
-3. Add API keys to `.env`
+3. Create `.env` with API keys (see `.env.example`)
 4. Run: `python app.py`
+
+## Environment Variables
+```
+AZURE_STORAGE_CONNECTION_STRING=your_blob_storage_connection_string
+CUSTOM_VISION_ENDPOINT=your_custom_vision_prediction_url
+CUSTOM_VISION_KEY=your_custom_vision_prediction_key
+```
 
 ## How It Works
 
-1. User uploads image
-2. Model classifies Batman actor (or flags as Nite Owl)
-3. Agent fetches actor info, filmography, or trivia based on result
-4. Returns prediction + enriched context
+1. User uploads image of masked character
+2. Image sent to Azure Custom Vision API
+3. Model returns prediction + confidence score
+4. Result displayed in Gradio interface
+
+## Model Performance
+
+- Precision: 84.6%
+- Recall: 84.6%
+- Average Precision: 89.7%
+
+## Live Demo
+
+[HuggingFace Space](https://huggingface.co/spaces/YOUR_USERNAME/BatVision)
+
+## Roadmap
+
+- [ ] Confidence score display
+- [ ] Side-by-side comparison with reference images
+- [ ] Agentic search (auto-fetch actor filmography)
+- [ ] Grad-CAM visualization (show which features model used)
+- [ ] More characters (Batgirl, Robin)
 
 ## License
 
-All Rights Reserved 2026 - Employers and Recruiters may clone and access to test
-
+All Rights Reserved 2026 — Employers and Recruiters may clone and access to test
