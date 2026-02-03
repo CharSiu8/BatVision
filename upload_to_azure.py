@@ -23,11 +23,12 @@ def upload_folder(folder_path, actor_name):
         file_path = os.path.join(folder_path, filename)
 
     # upload each file as blob (path: actor_name/filename)
-    blob_name = f"{actor_name}/{filename}"
-    with open (file_path, "rb") as data:
-        container_client.upload_blob(name=blob_name, data=data, overwrite = True)
+        blob_name = f"{actor_name}/{filename}"
+        with open (file_path, "rb") as data:
+            container_client.upload_blob(name=blob_name, data=data, overwrite = True)
 
-    print(f"Uploaded: {blob_name}")
+        print(f"Uploaded: {blob_name}")
+
 # main: loop through each actor in /processed
 if __name__ == "__main__":
     processed_dir = "data/processed"
