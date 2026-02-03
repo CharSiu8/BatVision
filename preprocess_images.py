@@ -10,8 +10,9 @@ def preprocess_image(input_path, output_path):
     img = img.convert("RGB")
     # resize
     img = img.resize((224, 224))
-    # save to output path
-    img.save(output_path)
+    # save to output path # force .jpg extension
+    output_path = os.path.splitext(output_path)[0] + ".jpg"
+    img.save(output_path, "JPEG")
 
 
 # function: update_manifest_status(filename)
