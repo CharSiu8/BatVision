@@ -50,7 +50,7 @@ https://huggingface.co/spaces/CharSiu8/BatVision
 ## Quick Start
 LIVE DEMO: https://huggingface.co/spaces/CharSiu8/BatVision
 
-OR
+OR be complicated if you want
 1. Clone repo
 2. Install dependencies: `pip install -r requirements.txt`
 3. Create `.env` with API keys (see `.env.example`)
