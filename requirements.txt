@@ -2,3 +2,4 @@ ddgs
 requests
 Pillow
 azure-storage-blob
+python-dotenv
