@@ -7,7 +7,7 @@ load_dotenv()
 
 # config: connection string, container name
 connection_string = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
-container = "images"
+container_name = "images"
 if not connection_string:
     print("Error: AZURE_STORAGE_CONNECTION_STRING not set in .env")
     exit(1)
