@@ -1,5 +1,5 @@
 import os
-import PIL import Image
+from PIL import Image
 import json
 
 # function: preprocess_image(input_path, output_path)

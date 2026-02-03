@@ -1,7 +1,7 @@
 {
   "images": [
     {
-      "filename": "affleck_001.jpg", 
+      "filename": "affleck_001.jpg",
       "actor": "affleck",
       "source_url": "https://...",
       "date_collected": "2025-02-02",
@@ -20,7 +20,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_001.jpg",
@@ -130,7 +130,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_003.jpg",
@@ -185,7 +185,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_003.jpg",
@@ -196,7 +196,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_004.jpg",
@@ -207,7 +207,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_000.jpg",
@@ -218,7 +218,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_001.jpg",
@@ -240,7 +240,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_003.jpg",
@@ -878,7 +878,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_008.jpg",
@@ -900,7 +900,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_010.jpg",
@@ -911,7 +911,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_011.jpg",
@@ -922,7 +922,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_012.jpg",
@@ -933,7 +933,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_013.jpg",
@@ -944,7 +944,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_014.jpg",
@@ -955,7 +955,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_015.jpg",
@@ -966,7 +966,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_016.jpg",
@@ -977,7 +977,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_017.jpg",
@@ -988,7 +988,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_018.jpg",
@@ -999,7 +999,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_019.jpg",
@@ -1010,7 +1010,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_020.jpg",
@@ -1021,7 +1021,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_021.jpg",
@@ -1032,7 +1032,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_022.jpg",
@@ -1043,7 +1043,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_023.jpg",
@@ -1054,7 +1054,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_024.jpg",
@@ -1065,7 +1065,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_000.jpg",
@@ -1395,7 +1395,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_006.jpg",
@@ -1406,7 +1406,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_007.jpg",
@@ -1417,7 +1417,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_008.jpg",
@@ -1428,7 +1428,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_009.jpg",
@@ -1439,7 +1439,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_010.jpg",
@@ -1450,7 +1450,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_012.jpg",
@@ -1461,7 +1461,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_013.jpg",
@@ -1472,7 +1472,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_014.jpg",
@@ -1483,7 +1483,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_015.jpg",
@@ -1494,7 +1494,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_016.jpg",
@@ -1505,7 +1505,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_017.jpg",
@@ -1516,7 +1516,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_018.jpg",
@@ -1527,7 +1527,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_019.jpg",
@@ -1538,7 +1538,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_020.jpg",
@@ -1549,7 +1549,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_021.jpg",
@@ -1560,7 +1560,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_022.jpg",
@@ -1571,7 +1571,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_023.jpg",
@@ -1582,7 +1582,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_024.jpg",
@@ -1725,7 +1725,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_012.jpg",
@@ -1912,7 +1912,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_006.jpg",
@@ -1923,7 +1923,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_007.jpg",
@@ -1934,7 +1934,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_008.jpg",
@@ -1956,7 +1956,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_010.jpg",
@@ -1967,7 +1967,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_011.jpg",
@@ -1978,7 +1978,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_012.jpg",
@@ -1989,7 +1989,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_013.jpg",
@@ -2011,7 +2011,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_015.jpg",
@@ -2022,7 +2022,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_016.jpg",
@@ -2033,7 +2033,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_017.jpg",
@@ -2077,7 +2077,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_021.jpg",
@@ -2088,7 +2088,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_022.jpg",
@@ -2099,7 +2099,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_023.jpg",
@@ -2110,7 +2110,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_024.jpg",
@@ -2165,7 +2165,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_005.jpg",
@@ -2352,7 +2352,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_001.jpg",
@@ -2363,7 +2363,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_002.jpg",
@@ -2374,7 +2374,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_003.jpg",
@@ -2385,7 +2385,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_004.jpg",
@@ -2396,7 +2396,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_005.jpg",
@@ -2407,7 +2407,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_006.jpg",
@@ -2418,7 +2418,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_007.jpg",
@@ -2440,7 +2440,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_009.jpg",
@@ -2451,7 +2451,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_010.jpg",
@@ -2484,7 +2484,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_013.jpg",
@@ -2495,7 +2495,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_014.jpg",
@@ -2506,7 +2506,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_015.jpg",
@@ -2517,7 +2517,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_016.jpg",
@@ -2528,7 +2528,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_017.jpg",
@@ -2539,7 +2539,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_018.jpg",
@@ -2550,7 +2550,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_019.jpg",
@@ -2605,7 +2605,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_024.jpg",
@@ -2616,7 +2616,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_000.jpg",
@@ -2902,7 +2902,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_020.jpg",
@@ -2913,7 +2913,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_021.jpg",
@@ -2935,7 +2935,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_023.jpg",
@@ -2946,7 +2946,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_024.jpg",
@@ -2968,7 +2968,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_026.jpg",
@@ -2979,7 +2979,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_027.jpg",
@@ -2990,7 +2990,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_028.jpg",
@@ -3012,7 +3012,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_030.jpg",
@@ -3023,7 +3023,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_031.jpg",
@@ -3034,7 +3034,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_032.jpg",
@@ -3056,7 +3056,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_034.jpg",
@@ -3067,7 +3067,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_035.jpg",
@@ -3089,7 +3089,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_037.jpg",
@@ -3100,7 +3100,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_038.jpg",
@@ -3111,7 +3111,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_039.jpg",
@@ -3122,7 +3122,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_041.jpg",
@@ -3144,7 +3144,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_043.jpg",
@@ -3188,7 +3188,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_046.jpg",
@@ -3276,7 +3276,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_055.jpg",
@@ -3287,7 +3287,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_057.jpg",
@@ -3331,7 +3331,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_062.jpg",
@@ -3342,7 +3342,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_063.jpg",
@@ -3353,7 +3353,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "affleck_064.jpg",
@@ -3584,7 +3584,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_026.jpg",
@@ -3595,7 +3595,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_027.jpg",
@@ -3617,7 +3617,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_029.jpg",
@@ -3639,7 +3639,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_031.jpg",
@@ -3672,7 +3672,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_030.jpg",
@@ -3738,7 +3738,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_036.jpg",
@@ -3749,7 +3749,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_038.jpg",
@@ -3793,7 +3793,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_042.jpg",
@@ -3804,7 +3804,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_043.jpg",
@@ -3815,7 +3815,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_044.jpg",
@@ -3837,7 +3837,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_046.jpg",
@@ -3848,7 +3848,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_047.jpg",
@@ -3859,7 +3859,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_049.jpg",
@@ -3881,7 +3881,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_052.jpg",
@@ -3892,7 +3892,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "bale_053.jpg",
@@ -3958,7 +3958,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_026.jpg",
@@ -3969,7 +3969,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_027.jpg",
@@ -3980,7 +3980,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_028.jpg",
@@ -3991,7 +3991,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_029.jpg",
@@ -4002,7 +4002,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_030.jpg",
@@ -4013,7 +4013,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_031.jpg",
@@ -4024,7 +4024,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_032.jpg",
@@ -4035,7 +4035,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_034.jpg",
@@ -4046,7 +4046,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_035.jpg",
@@ -4057,7 +4057,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_036.jpg",
@@ -4068,7 +4068,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_037.jpg",
@@ -4079,7 +4079,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_038.jpg",
@@ -4090,7 +4090,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_039.jpg",
@@ -4101,7 +4101,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_040.jpg",
@@ -4112,7 +4112,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_041.jpg",
@@ -4123,7 +4123,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_042.jpg",
@@ -4134,7 +4134,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_043.jpg",
@@ -4156,7 +4156,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_045.jpg",
@@ -4167,7 +4167,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_046.jpg",
@@ -4178,7 +4178,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_046.jpg",
@@ -4211,7 +4211,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_050.jpg",
@@ -4222,7 +4222,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_051.jpg",
@@ -4233,7 +4233,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_052.jpg",
@@ -4244,7 +4244,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_053.jpg",
@@ -4255,7 +4255,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_054.jpg",
@@ -4266,7 +4266,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_055.jpg",
@@ -4277,7 +4277,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_057.jpg",
@@ -4288,7 +4288,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_058.jpg",
@@ -4299,7 +4299,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_059.jpg",
@@ -4310,7 +4310,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_060.jpg",
@@ -4332,7 +4332,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_062.jpg",
@@ -4343,7 +4343,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_063.jpg",
@@ -4365,7 +4365,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_065.jpg",
@@ -4376,7 +4376,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_066.jpg",
@@ -4387,7 +4387,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_067.jpg",
@@ -4398,7 +4398,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "pattinson_068.jpg",
@@ -4409,7 +4409,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_023.jpg",
@@ -4442,7 +4442,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_026.jpg",
@@ -4464,7 +4464,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_029.jpg",
@@ -4486,7 +4486,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_031.jpg",
@@ -4497,7 +4497,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_032.jpg",
@@ -4508,7 +4508,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_033.jpg",
@@ -4519,7 +4519,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_034.jpg",
@@ -4530,7 +4530,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_035.jpg",
@@ -4541,7 +4541,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_036.jpg",
@@ -4574,7 +4574,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_039.jpg",
@@ -4629,7 +4629,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_044.jpg",
@@ -4651,7 +4651,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_046.jpg",
@@ -4673,7 +4673,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_045.jpg",
@@ -4717,7 +4717,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_050.jpg",
@@ -4728,7 +4728,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_051.jpg",
@@ -4739,7 +4739,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_052.jpg",
@@ -4750,7 +4750,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_053.jpg",
@@ -4761,7 +4761,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_054.jpg",
@@ -4772,7 +4772,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_056.jpg",
@@ -4783,7 +4783,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_057.jpg",
@@ -4794,7 +4794,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_058.jpg",
@@ -4816,7 +4816,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_061.jpg",
@@ -4827,7 +4827,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_064.jpg",
@@ -4849,7 +4849,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_066.jpg",
@@ -4860,7 +4860,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_067.jpg",
@@ -4871,7 +4871,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_068.jpg",
@@ -4882,7 +4882,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "niteowl_069.jpg",
@@ -4959,7 +4959,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_026.jpg",
@@ -4981,7 +4981,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_028.jpg",
@@ -5003,7 +5003,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_030.jpg",
@@ -5025,7 +5025,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_032.jpg",
@@ -5036,7 +5036,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_033.jpg",
@@ -5058,7 +5058,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_035.jpg",
@@ -5069,7 +5069,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_036.jpg",
@@ -5102,7 +5102,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_039.jpg",
@@ -5124,7 +5124,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_041.jpg",
@@ -5135,7 +5135,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_042.jpg",
@@ -5146,7 +5146,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_043.jpg",
@@ -5157,7 +5157,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_044.jpg",
@@ -5168,7 +5168,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_043.jpg",
@@ -5201,7 +5201,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_046.jpg",
@@ -5212,7 +5212,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_047.jpg",
@@ -5223,7 +5223,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_048.jpg",
@@ -5234,7 +5234,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_049.jpg",
@@ -5245,7 +5245,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_050.jpg",
@@ -5267,7 +5267,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_052.jpg",
@@ -5278,7 +5278,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_053.jpg",
@@ -5311,7 +5311,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_056.jpg",
@@ -5322,7 +5322,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_057.jpg",
@@ -5333,7 +5333,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_058.jpg",
@@ -5344,7 +5344,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_059.jpg",
@@ -5355,7 +5355,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_060.jpg",
@@ -5377,7 +5377,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_062.jpg",
@@ -5421,7 +5421,7 @@
         224,
         224
       ],
-      "status": "raw"
+      "status": "processed"
     },
     {
       "filename": "darkwing_066.jpg",
