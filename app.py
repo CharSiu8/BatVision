@@ -76,7 +76,7 @@ def predict(image):
     confidence = top["probability"] * 100
     quote = get_quote(name)
 
-    return f"{name} ({confidence:.1f}% confidence)\n\n\{quote}\"
+    return f"{name} ({confidence:.1f}% confidence)\n\n{quote}"
 
 # interface
 demo = gr.Interface(

@@ -4,3 +4,4 @@ Pillow
 azure-storage-blob
 python-dotenv
 gradio
+openai
