@@ -4,6 +4,7 @@ import os
 from dotenv import load_dotenv
 from PIL import Image
 from io import BytesIO
+from openai import OpenAI
 
 # load environment variables
 load_dotenv()
@@ -11,17 +12,38 @@ load_dotenv()
 print("ENV CHECK:")
 print(f"Endpoint length: {len(os.getenv('CUSTOM_VISION_ENDPOINT', ''))}")
 print(f"Key length: {len(os.getenv('CUSTOM_VISION_KEY', ''))}")
+
 # config: endpoint, key
 CUSTOM_VISION_ENDPOINT = os.getenv("CUSTOM_VISION_ENDPOINT")
 CUSTOM_VISION_KEY = os.getenv("CUSTOM_VISION_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=OPENAI_API_KEY)
+
 if not CUSTOM_VISION_ENDPOINT:
     print("Error: CUSTOM_VISION_ENDPOINT not set in .env")
     exit(1)
 if not CUSTOM_VISION_KEY:
     print("Error: CUSTOM_VISION_KEY not set in .env")
     exit(1)
+if not OPENAI_API_KEY:
+    print("Error: OPENAI_API_KEY not set in .env")
+    exit(1)
+
 print("Endpoint:", CUSTOM_VISION_ENDPOINT)
 print("Key:", CUSTOM_VISION_KEY[:10] + "...")
+
+def get_quote(actor):
+    response = client.chat.completions.create(
+        model = "gpt-4o"
+        messages = [
+            {"role": "system", "content": "You return one iconic quote from the specified Batman actor. Just the quote, no extra text."},
+            {"role": "user", "content": f"Give me an iconic quote from {actor}'s Batman movies."}
+            ],
+            max_tokens =100,
+
+    )
+    return response.choices[0].message.content
+
 # function: predict(image)
 def predict(image):
     # create a BytesIO buffer
@@ -52,7 +74,9 @@ def predict(image):
     # return top prediction + confidence
     name = top["tagName"].capitalize()
     confidence = top["probability"] * 100
-    return f"{name} ({confidence:.1f}% confidence)"
+    quote = get_quote(name)
+
+    return f"{name} ({confidence:.1f}% confidence)\n\n\"{quote}\""
 
 # interface
 demo = gr.Interface(

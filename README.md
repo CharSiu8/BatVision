@@ -11,6 +11,7 @@ https://huggingface.co/spaces/CharSiu8/BatVision
 - **Image Classification:** Upload an image → identifies which Batman actor
 - **Masked Face Recognition:** Model trained on challenging mask-heavy images, forcing recognition of subtle facial features (jaw, chin, mouth)
 - **Similarity Detection:** Distinguishes Batman from lookalike characters (Nite Owl from Watchmen, Darkwing from Invincible)
+- **OpenAI API Agentic Quote Generation:** OpenAI API calls GPT for random iconic quotes of each Batman for eveyr image detection. 
 
 ## Azure Integrations
 
@@ -26,6 +27,7 @@ https://huggingface.co/spaces/CharSiu8/BatVision
 - Azure Blob Storage (image hosting)
 - Gradio (UI)
 - HuggingFace Spaces (deployment)
+- OpenAI API 
 
 ## Data Structure
 ```
