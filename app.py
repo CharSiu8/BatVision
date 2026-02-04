@@ -34,7 +34,7 @@ print("Key:", CUSTOM_VISION_KEY[:10] + "...")
 
 def get_quote(actor):
     response = client.chat.completions.create(
-        model = "gpt-4o"
+        model = "gpt-4o",
         messages = [
             {"role": "system", "content": "You return one iconic quote from the specified Batman actor. Just the quote, no extra text."},
             {"role": "user", "content": f"Give me an iconic quote from {actor}'s Batman movies."}
