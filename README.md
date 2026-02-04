@@ -75,9 +75,9 @@ CUSTOM_VISION_KEY=your_custom_vision_prediction_key
 
 ## Model Performance
 
-- Precision: 84.6%
-- Recall: 84.6%
-- Average Precision: 89.7%
+- Precision: 90.4%
+- Recall: 90.4%
+- Average Precision: 95.7%
 
 ## Live Demo
 
