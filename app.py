@@ -36,7 +36,7 @@ def get_quote(actor):
     response = client.chat.completions.create(
         model = "gpt-4o",
         messages = [
-            {"role": "system", "content": "You return one iconic quote from the specified Batman actor, darkwin. Just the quote, no extra text."},
+            {"role": "system", "content": "You return one iconic quote from the specified character. For Batman actors (Affleck, Bale, Pattinson), return a quote from their Batman movies. For Nite Owl, return a quote from Watchmen. For Darkwing, return a quote from Invincible. Just the quote, no attribution or extra text."},
             {"role": "user", "content": f"Give me an iconic quote from {actor}'s Batman movies."}
             ],
             max_tokens =100,
