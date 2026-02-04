@@ -119,7 +119,7 @@ def predict(image):
     name = top["tagName"].capitalize()
     confidence = top["probability"] * 100
     # Agentic AI Feature 3, return quote
-    movie = get_image(image, name)
+    movie = get_movie(image, name)
     details = get_movie_details(movie)
     quote = get_quote(name)
 
