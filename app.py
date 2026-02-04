@@ -61,7 +61,11 @@ def get_movie(image_path, actor):
             {
                 "role": "user",
                 "content": [
-                    {"type": "text", "text": f"This is {actor} as Batman or a Batman lookalike. What specific movie or show is this from? Reply only with the title."},
+                    {"type": "text", "text": f"""This is {actor} as Batman or a Batman lookalike. 
+                    Based on the suit design, cowl shape, and visual style, which specific movie is this from? 
+                    Options for reference: Affleck (Batman v Superman, Justice League), Bale (Batman Begins, 
+                    The Dark Knight, The Dark Knight Rises), Pattinson (The Batman), Nite Owl (Watchmen), 
+                    Darkwing (Invincible). Reply with only the exact movie title."""},
                     {
                         "type": "image_url",
                         "image_url": {
