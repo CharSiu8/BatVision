@@ -74,7 +74,7 @@ def get_movie(image_path, actor):
         max_tokens=50
             )
 
-return response.choices[0].message.content
+    return response.choices[0].message.content
                 
 # Feature 2- Movie details
 def get_movie_details(movie):
