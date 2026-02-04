@@ -36,7 +36,7 @@ def get_quote(actor):
     response = client.chat.completions.create(
         model = "gpt-4o",
         messages = [
-            {"role": "system", "content": "You return one iconic quote from the specified Batman actor. Just the quote, no extra text."},
+            {"role": "system", "content": "You return one iconic quote from the specified Batman actor, darkwin. Just the quote, no extra text."},
             {"role": "user", "content": f"Give me an iconic quote from {actor}'s Batman movies."}
             ],
             max_tokens =100,
@@ -76,7 +76,7 @@ def predict(image):
     confidence = top["probability"] * 100
     quote = get_quote(name)
 
-    return f"{name} ({confidence:.1f}% confidence)\n\n\"{quote}\""
+    return f"{name} ({confidence:.1f}% confidence)\n\n\{quote}\"
 
 # interface
 demo = gr.Interface(
