@@ -10,21 +10,27 @@ from datetime import datetime
 # config: list of actors + search queries
 actors = {
     "kilmer": [
-        "Val Kilmer Batman Forever mask"
-        "Val Kilmer Bruce Wayne 1995"
-        "Val Kilmer cowl off"
+        "Val Kilmer headshot Batman Forever"
+        "Val Kilmer jaw chin Batman"
+        #"Val Kilmer Batman Forever mask"
+        #"Val Kilmer Bruce Wayne 1995"
+        #"Val Kilmer cowl off"
     ],
 
     "keaton": [
-        "Michael Keaton Batman mask"
-        "Michael Keaton Bruce Wayne 1989"
-        "Michael Keaton cowl off Batman"
+        "Michael Keaton headshot Batman"
+        "Michael Keaton jaw chin Batman"
+        #"Michael Keaton Batman mask"
+        #"Michael Keaton Bruce Wayne 1989"
+        #"Michael Keaton cowl off Batman"
     ],
 
     "clooney": [
-        "George Clooney Batman Robin mask"
-        "George Clooney Bruce Wayne 1997"
-        "George Clooney cowl removal"
+        "George Clooney headshot Batman"
+        "George Clooney jaw chin Batman"
+        #"George Clooney Batman Robin mask"
+        #"George Clooney Bruce Wayne 1997"
+        #"George Clooney cowl removal"
     ]
 }
 
@@ -120,7 +126,7 @@ def collect_for_actor(actor_name, search_query, num_images):
     # call collect_for_actor for each
     # print summary when done
 if __name__ == "__main__":
-    num_images = 20  # per query
+    num_images = 25  # per query
     
     for actor_name, queries in actors.items():
         for search_query in queries:
