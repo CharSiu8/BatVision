@@ -7,11 +7,12 @@ AI-powered image classifier that identifies Batman actors (Affleck, Bale, Pattin
 https://huggingface.co/spaces/CharSiu8/BatVision
 
 ## Features
-
 - **Image Classification:** Upload an image → identifies which Batman actor
 - **Masked Face Recognition:** Model trained on challenging mask-heavy images, forcing recognition of subtle facial features (jaw, chin, mouth)
 - **Similarity Detection:** Distinguishes Batman from lookalike characters (Nite Owl from Watchmen, Darkwing from Invincible)
-- **OpenAI API Agentic Quote Generation:** OpenAI API calls GPT for random iconic quotes of each Batman for eveyr image detection. 
+- **Agentic Quote Generation:** GPT generates a random iconic quote from that specific Batman's movies
+- **Agentic Movie Detection:** GPT-4o Vision analyzes the suit design to identify the exact movie/show
+- **Agentic Villain & Box Office Lookup:** GPT fetches the main villain and box office data for the detected movie
 
 ## Azure Integrations
 
@@ -74,9 +75,9 @@ CUSTOM_VISION_KEY=your_custom_vision_prediction_key
 
 ## Model Performance
 
-- Precision: 84.6%
-- Recall: 84.6%
-- Average Precision: 89.7%
+- Precision: 90.4%
+- Recall: 90.4%
+- Average Precision: 95.7%
 
 ## Live Demo
 

@@ -32,6 +32,7 @@ if not OPENAI_API_KEY:
 print("Endpoint:", CUSTOM_VISION_ENDPOINT)
 print("Key:", CUSTOM_VISION_KEY[:10] + "...")
 
+# Agentic AI feature that uses LLM in order to pull a random quote matched to that specific Batman/lookalike
 def get_quote(actor):
     response = client.chat.completions.create(
         model = "gpt-4o",
@@ -41,6 +42,53 @@ def get_quote(actor):
             ],
             max_tokens =100,
 
+    )
+    return response.choices[0].message.content
+
+# Agentic AI Features to match image of Batman/lookalike to movie by suit and pull box office data 
+# Feature 1 match image to movie/show
+def get_movie(image_path, actor):
+    import base64
+    
+    # open image and convert to base64
+    with open(image_path, "rb") as f:
+        image_data = base64.b64encode(f.read()).decode("utf-8")
+        
+    # call GPT-4o with vision
+    response = client.chat.completions.create(
+        model = "gpt-4o",
+        messages=[
+            {
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": f"""This is {actor} as Batman or a Batman lookalike. 
+                    Based on the suit design, cowl shape, and visual style, which specific movie is this from? 
+                    Options for reference: Affleck (Batman v Superman, Justice League), Bale (Batman Begins, 
+                    The Dark Knight, The Dark Knight Rises), Pattinson (The Batman), Nite Owl (Watchmen), 
+                    Darkwing (Invincible). Reply with only the exact movie title."""},
+                    {
+                        "type": "image_url",
+                        "image_url": {
+                            "url": f"data:image/jpeg;base64,{image_data}",
+                        }
+                    }
+                ]
+            }
+        ],
+        max_tokens=50
+            )
+
+    return response.choices[0].message.content
+                
+# Feature 2- Movie details
+def get_movie_details(movie):
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[
+            {"role": "system", "content": "Return movie details in this exact format: This Batman fought: [villian name] | Box Office: [amount]"},
+            {"role": "user", "content": f"For the movie {movie}, who is the main villain and what was the box office total?"}
+        ],
+        max_tokens=100
     )
     return response.choices[0].message.content
 
@@ -74,9 +122,12 @@ def predict(image):
     # return top prediction + confidence
     name = top["tagName"].capitalize()
     confidence = top["probability"] * 100
+    # Agentic AI Feature 3, return quote
+    movie = get_movie(image, name)
+    details = get_movie_details(movie)
     quote = get_quote(name)
 
-    return f"{name} ({confidence:.1f}% confidence)\n\n{quote}"
+    return f"{name} ({confidence:.1f}% confidence)\nMovie: {movie}\n{details}\n\n{quote}"
 
 # interface
 demo = gr.Interface(
@@ -84,7 +135,7 @@ demo = gr.Interface(
     inputs=gr.Image(type="filepath"),
     outputs=gr.Text(label="Prediction"),
     title="BatVision",
-    description="Upload an image of Batman to identify the actor. Accepts: Affleck, Bale, Pattinson, Nite Owl, Darkwing."
+    description="Upload an image of Batman or a Batman lookalike to identify the actor. This model accepts: Ben Affleck, Christian Bale, Robert Pattinson, Nite Owl (Watchmen) & Darkwing (Invincible)."
 )
 
 # launch
