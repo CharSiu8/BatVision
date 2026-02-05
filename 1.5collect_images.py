@@ -120,12 +120,12 @@ def collect_for_actor(actor_name, search_query, num_images):
     # call collect_for_actor for each
     # print summary when done
 if __name__ == "__main__":
-    num_images = 25  # per query
+    num_images = 20  # per query
     
     for actor_name, queries in actors.items():
         for search_query in queries:
             print(f"Collecting {num_images} images for {actor_name} ({search_query})...")
             collect_for_actor(actor_name, search_query, num_images)
-            time.sleep(5)  # pause between queries to avoid rate limit
+            time.sleep(2)  # pause between queries to avoid rate limit
     
     print("Done!")
