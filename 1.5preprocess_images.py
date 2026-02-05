@@ -36,13 +36,32 @@ if __name__ == "__main__":
     raw_dir = "data/raw"
     processed_dir = "data/processed"
     
-    # add this line
     actors_to_process = ["keaton", "clooney", "kilmer"]
     
     for actor_name in os.listdir(raw_dir):
-        # add this check
+        print(f"Checking: {actor_name}")
         if actor_name not in actors_to_process:
+            print(f"Skipping {actor_name}")
             continue
-            
+        print(f"Processing {actor_name}...")
         actor_raw_path = os.path.join(raw_dir, actor_name)
-        # ... rest of code
+        actor_processed_path = os.path.join(processed_dir, actor_name)
+        
+        # create matching folder in /processed
+        os.makedirs(actor_processed_path, exist_ok=True)
+        
+        # loop through images
+        for filename in os.listdir(actor_raw_path):
+            input_path = os.path.join(actor_raw_path, filename)
+            output_path = os.path.join(actor_processed_path, filename)
+            
+            # call preprocess_image
+            preprocess_image(input_path, output_path)
+            
+            # call update_manifest_status
+            update_manifest_status(filename)
+            
+            # print progress
+            print(f"Processed: {filename}")
+    
+    print("Done processing images!")
