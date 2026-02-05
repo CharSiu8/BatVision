@@ -6,7 +6,7 @@ import json
 import requests
 import time
 from datetime import datetime
-
+# change dict key to kilmer_refined to add more specifc headshots there.
 # config: list of actors + search queries
 actors = {
     "kilmer": [
