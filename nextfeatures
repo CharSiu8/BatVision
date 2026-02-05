@@ -1,12 +1,16 @@
 Features to add after MVP:
 
-Confidence score — Show % certainty of prediction
+1.5
+✅ Confidence score — Show % certainty of prediction
+✅ Add more batmans — kilmer, clooney, keaton
+✅ Agentic AI gets box office stats for the movie of the specific batman in that photo
+✅ Agentic AI gets a random quote of that specific batman actor
+
+2.0 Possibilites
 Side-by-side comparison — Display reference image next to uploaded image
 Multi-image batch upload — Classify multiple images at once
-Actor stats dashboard — Show classification history/analytics
 Voice narration — Eleven Labs reads out the result
 Explain prediction — Highlight facial features model used (Grad-CAM)
-Add more characters — Batgirl, Robin, other lookalikes
 Reverse search — Agent finds similar images online
 API endpoint — Let others call your classifier programmatically
 Fine-tuning interface — User corrects wrong predictions, model improves
