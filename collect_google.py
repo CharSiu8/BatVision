@@ -21,26 +21,27 @@ if not GOOGLE_CX:
 
 # queries - 2 per actor, focused on mask/suit
 actors = {
-    "kilmer": [
+    "kilmer_google": [
         "Batman Forever cowl close up 1995",
         "Val Kilmer Batman suit profile"
     ],
-    "clooney": [
+    "clooney_google": [
         "George Clooney Batman and Robin cowl",
         "Batman and Robin 1997 suit face"
     ],
-    "keaton": [
+    "keaton_google": [
         "Michael Keaton Batman 1989 cowl",
         "Batman Returns mask close up"
     ]
 }
 
 def search_images(query, num_results=10):
+    
     # Google Custom Search API endpoint
     url = "https://www.googleapis.com/customsearch/v1"
     
     image_urls = []
-    # API returns max 10 per request
+    # API returns max 15 per request
     params = {
         "key": GOOGLE_API_KEY,
         "cx": GOOGLE_CX,
@@ -48,10 +49,12 @@ def search_images(query, num_results=10):
         "searchType": "image",
         "num": num_results
     }
-    
+    print(f"URL: {url}")
+    print(f"Params: {params}")  # debugging output
     response = requests.get(url, params=params)
     result = response.json()
-    
+    print(result)
+
     if "items" in result:
         for item in result["items"]:
             image_urls.append(item["link"])
@@ -102,7 +105,8 @@ def collect_for_actor(actor_name, queries, images_per_query=10):
     for query in queries:
         print(f"Searching: {query}")
         image_urls = search_images(query, images_per_query)
-        
+        print(f"Found {len(image_urls)} images")
+
         for url in image_urls:
             save_path = os.path.join("data", "raw", actor_name, f"{actor_name}_{index:03d}.jpg")
             success = download_image(url, save_path)
@@ -125,7 +129,6 @@ def collect_for_actor(actor_name, queries, images_per_query=10):
 
 if __name__ == "__main__":
     # 100 free calls per day
-    # 3 actors x 2 queries x 10 images = 6 API calls, 60 images
     images_per_query = 10
     
     for actor_name, queries in actors.items():
