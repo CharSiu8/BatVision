@@ -1,0 +1,135 @@
+import os
+import requests
+import json
+import time
+from datetime import datetime
+from dotenv import load_dotenv
+
+# load environment variables
+load_dotenv()
+
+# config
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_CX = os.getenv("GOOGLE_CX")
+
+if not GOOGLE_API_KEY:
+    print("Error: GOOGLE_API_KEY not set in .env")
+    exit(1)
+if not GOOGLE_CX:
+    print("Error: GOOGLE_CX not set in .env")
+    exit(1)
+
+# queries - 2 per actor, focused on mask/suit
+actors = {
+    "kilmer": [
+        "Batman Forever cowl close up 1995",
+        "Val Kilmer Batman suit profile"
+    ],
+    "clooney": [
+        "George Clooney Batman and Robin cowl",
+        "Batman and Robin 1997 suit face"
+    ],
+    "keaton": [
+        "Michael Keaton Batman 1989 cowl",
+        "Batman Returns mask close up"
+    ]
+}
+
+def search_images(query, num_results=10):
+    # Google Custom Search API endpoint
+    url = "https://www.googleapis.com/customsearch/v1"
+    
+    image_urls = []
+    # API returns max 10 per request
+    params = {
+        "key": GOOGLE_API_KEY,
+        "cx": GOOGLE_CX,
+        "q": query,
+        "searchType": "image",
+        "num": num_results
+    }
+    
+    response = requests.get(url, params=params)
+    result = response.json()
+    
+    if "items" in result:
+        for item in result["items"]:
+            image_urls.append(item["link"])
+    
+    return image_urls
+
+def download_image(url, save_path):
+    try:
+        response = requests.get(url, timeout=10)
+        if response.status_code == 200:
+            with open(save_path, "wb") as f:
+                f.write(response.content)
+            print(f"Downloaded: {save_path}")
+            return True
+        else:
+            print(f"Failed: {response.status_code}")
+            return False
+    except Exception as e:
+        print(f"Error: {e}")
+        return False
+
+def update_manifest(image_data):
+    file_path = "data/manifest.json"
+    if os.path.exists(file_path):
+        with open(file_path, "r") as f:
+            try:
+                manifest = json.load(f)
+            except json.JSONDecodeError:
+                manifest = {"images": [], "metadata": {"total_images": 0}}
+    else:
+        manifest = {"images": [], "metadata": {"total_images": 0}}
+    
+    manifest["images"].append(image_data)
+    manifest["metadata"]["total_images"] += 1
+    
+    with open(file_path, "w") as f:
+        json.dump(manifest, f, indent=2)
+
+def collect_for_actor(actor_name, queries, images_per_query=10):
+    # create folder if needed
+    os.makedirs(os.path.join("data", "raw", actor_name), exist_ok=True)
+    
+    # get starting index
+    existing_files = os.listdir(os.path.join("data", "raw", actor_name))
+    start_index = len(existing_files)
+    
+    index = start_index
+    for query in queries:
+        print(f"Searching: {query}")
+        image_urls = search_images(query, images_per_query)
+        
+        for url in image_urls:
+            save_path = os.path.join("data", "raw", actor_name, f"{actor_name}_{index:03d}.jpg")
+            success = download_image(url, save_path)
+            
+            if success:
+                image_data = {
+                    "filename": f"{actor_name}_{index:03d}.jpg",
+                    "actor": actor_name,
+                    "source_url": url,
+                    "date_collected": datetime.now().strftime("%Y-%m-%d"),
+                    "dimensions": [224, 224],
+                    "status": "raw"
+                }
+                update_manifest(image_data)
+                index += 1
+            
+            time.sleep(1)
+        
+        time.sleep(2)  # pause between queries
+
+if __name__ == "__main__":
+    # 100 free calls per day
+    # 3 actors x 2 queries x 10 images = 6 API calls, 60 images
+    images_per_query = 10
+    
+    for actor_name, queries in actors.items():
+        print(f"\n=== Collecting for {actor_name} ===")
+        collect_for_actor(actor_name, queries, images_per_query)
+    
+    print("\nDone!")
