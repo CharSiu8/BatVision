@@ -1,3 +1,4 @@
+opencv-python
 ddgs
 requests
 Pillow
