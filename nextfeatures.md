@@ -9,11 +9,14 @@ Features to add after MVP:
 
 ✅ Add more batmans — kilmer, clooney, keaton
     ⚠️ Still need to add more images. The model is not sufficient for deployment yet and needs more data of these 3 batmans. 
-        - need Data Augmentation. crop full face/mask. train model on the mask crop as well as its full context photo
+    
+        - ✅ need Data Augmentation. crop full face/mask. train model on the mask crop as well as its full context photo. ⚠️ model still not good enough(iteration 7)
+        
         - need to find more distinguishing features:     
                 Keaton = rounder cowl, 1989 style
                 Kilmer = sleeker cowl, nipples on suit
                 Bale = angular cowl, tactical suit
+                
         - need to curate images with differences
                 Remove images where suits look generic
                 Keep images with clear cowl/suit details
