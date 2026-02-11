@@ -50,7 +50,6 @@ def search_images(query, num_results=10):
         "num": num_results
     }
     print(f"URL: {url}")
-    print(f"Params: {params}")  # debugging output
     response = requests.get(url, params=params)
     result = response.json()
     print(result)
