@@ -140,4 +140,4 @@ demo = gr.Interface(
 
 # launch
 # launches on both azure and gradio/Hugging face
-demo.launch(server_name="0.0.0.0", server_port=8000)
+demo.launch(server_name="0.0.0.0", server_port=8000, share=False)
