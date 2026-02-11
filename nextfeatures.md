@@ -2,8 +2,11 @@ Features to add after MVP:
 
 1.5
 ✅ Confidence score — Show % certainty of prediction
+
 ✅ Agentic AI gets box office stats for the movie of the specific batman in that photo
+
 ✅ Agentic AI gets a random quote of that specific batman actor
+
 ✅ Add more batmans — kilmer, clooney, keaton
     ⚠️ Still need to add more images. The model is not sufficient for deployment yet and needs more data of these 3 batmans. 
         - need Data Augmentation. crop full face/mask. train model on the mask crop as well as its full context photo
