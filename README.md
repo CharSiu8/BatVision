@@ -1,6 +1,8 @@
 # BatVision
 
-AI-powered image classifier that identifies Batman actors (Affleck, Bale, Pattinson) and distinguishes from similar masked characters (Nite Owl, Darkwing). Built with Azure cloud services.
+AI-powered facial recognition (image classifier model) that identifies Batman actors (Affleck, Bale, Pattinson) and distinguishes from similar masked characters (Nite Owl, Darkwing). Built with Azure cloud services.
+
+I chose this project to show my capabilities with facial recognition. I did not select Batman for fun, I selected him because it extremely limits the facial recognition model to focus on limited features.
 
 ## LIVE DEMO
 
