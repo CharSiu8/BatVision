@@ -138,16 +138,16 @@ demo = gr.Interface(
     description="Upload an image of Batman or a Batman lookalike to identify the actor. This model accepts: Ben Affleck, Christian Bale, Robert Pattinson, Nite Owl (Watchmen) & Darkwing (Invincible).",
 
 examples=[
-    ["test_images/affleck_test1.jpg"],
-    ["test_images/affleck_test2.jpg"],
-    ["test_images/pattinson_test1.jpg"],
-    ["test_images/pattinson_test2.jpg"],
-    ["test_images/bale_test1.jpg"],
-    ["test_images/bale_test2.jpg"],
-    ["test_images/darkwing_test1.jpg"],
-    ["test_images/darkwing_test2.jpg"],
-    ["test_images/niteowl_test1.jpg"],
-    ["test_images/niteowl_test2.jpg"]
+    ["UI_test_images/affleck_test1.jpg"],
+    ["UI_test_images/affleck_test2.jpg"],
+    ["UI_test_images/pattinson_test1.jpg"],
+    ["UI_test_images/pattinson_test2.jpg"],
+    ["UI_test_images/bale_test1.jpg"],
+    ["UI_test_images/bale_test2.jpg"],
+    ["UI_test_images/darkwing_test1.jpg"],
+    ["UI_test_images/darkwing_test2.jpg"],
+    ["UI_test_images/niteowl_test1.jpg"],
+    ["UI_test_images/niteowl_test2.jpg"]
 ]
 )
 
