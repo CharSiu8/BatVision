@@ -12,7 +12,7 @@ https://huggingface.co/spaces/CharSiu8/BatVision
 
 Azure DEMO: http://batvision.a4dyasbea5bxc7gd.canadaeast.azurecontainer.io:8000/
 
-*Please note that the Azure version is off between 9pm-7am ET to save 58% in monthly costs.*
+*Please note that the Azure version is off between 7pm-9am ET to save 58% in monthly costs.*
 
 https://github.com/CharSiu8/BatVisionAzure
 
